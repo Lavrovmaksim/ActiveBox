@@ -6,6 +6,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link
+     rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
     <link rel="stylesheet" href="style/style.css">
     <title>ActiveBox</title>
 </head>
@@ -120,56 +124,56 @@
     <div class="work">
         <div class="work__wrapper-icon">
             <img class="work__img" src="images/photo2.jpg">
-            <div class="work__img-content">
+            <div class="work__content">
                 <h3 class="work__title">Projekt Name</h3>
                 <p class="work__text">User Interface Design</p>
             </div>
         </div>
         <div class="work__wrapper-icon">
             <img class="work__img" src="images/photo3.jpg" >
-            <div class="work__img-content">
+            <div class="work__content">
                 <h3 class="work__title">Projekt Name</h3>
                 <p class="work__text">User Interface Design</p>
             </div>
         </div>
         <div class="work__wrapper-icon">
             <img class="work__img" src="images/photo4.jpg" >
-            <div class="work__img-content">
+            <div class="work__content">
                 <h3 class="work__title">Projekt Name</h3>
                 <p class="work__text">User Interface Design</p>
             </div>
         </div>
         <div class="work__wrapper-icon">
             <img class="work__img" src="images/photo5.jpg" >
-            <div class="work__img-content">
+            <div class="work__content">
                 <h3 class="work__title">Projekt Name</h3>
                 <p class="work__text">User Interface Design</p>
             </div>
         </div>
         <div class="work__wrapper-icon">
             <img class="work__img" src="images/photo6.jpg" >
-            <div class="work__img-content">
+            <div class="work__content">
                 <h3 class="work__title">Projekt Name</h3>
                 <p class="work__text">User Interface Design</p>
             </div>
         </div>
         <div class="work__wrapper-icon">
             <img class="work__img" src="images/photo7.jpg" >
-            <div class="work__img-content">
+            <div class="work__content">
                 <h3 class="work__title">Projekt Name</h3>
                 <p class="work__text">User Interface Design</p>
             </div>
         </div>
         <div class="work__wrapper-icon">
             <img class="work__img" src="images/photo8.jpg" >
-            <div class="work__img-content">
+            <div class="work__content">
                 <h3 class="work__title">Projekt Name</h3>
                 <p class="work__text">User Interface Design</p>
             </div>
         </div>
         <div class="work__wrapper-icon">
             <img class="work__img" src="images/photo9.jpg" >
-            <div class="work__img-content">
+            <div class="work__content">
                 <h3 class="work__title">Projekt Name</h3>
                 <p class="work__text">User Interface Design</p>
             </div>
@@ -178,7 +182,7 @@
     <div class="team">
         <div class="container team__container">
             <div class="team__card">
-                <div class="team__wrapper-icon">
+                <div class="team__wrapper-img">
                     <img class="team__img" src="images/ruth.jpg">
                 </div>
                     <h3 class="team__title">Ruth Woods</h3>
@@ -200,7 +204,7 @@
                 </div>
             </div>
             <div class="team__card">
-                <div class="team__wrapper-icon">
+                <div class="team__wrapper-img">
                     <img class="team__img" src="images/timothy.jpg">
                 </div>
                     <h3 class="team__title">Timothy Reed</h3>
@@ -222,7 +226,7 @@
                 </div>
             </div>
             <div class="team__card">
-                <div class="team__wrapper-icon">
+                <div class="team__wrapper-img">
                     <img class="team__img" src="images/victoria.jpg">
                 </div>
                     <h3 class="team__title">Victoria Vladez</h3>
@@ -244,7 +248,7 @@
                 </div>
             </div>
             <div class="team__card">
-                <div class="team__wrapper-icon">
+                <div class="team__wrapper-img">
                     <img class="team__img" src="images/beverly.jpg">
                 </div>
                     <h3 class="team__title">Beverly Little</h3>
@@ -268,14 +272,59 @@
         </div>
     </div>
     <div class="slider">
-        <div class="container slider__container">
-            <div class="slider__wrapper-img">
-                <img class="slider__img" src="images/girls.jpg">
+        <!-- Slider main container -->
+        <div class="swiper swiper-review">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+            <!-- Slides -->
+                <div class="swiper-slide slider__container">
+                    <div class="slider__wrapper-img">
+                        <img class="slider__img" src="images/girls.jpg">
+                    </div>
+                    <div class="slider__wrapper-text">
+                        <h3 class="slider__title">“Integer Posuere Erat A Ante Venenatis Dapibus Posuere Velit Aliquet. Donec Sed Odio Dui. Aenean Eu Leo Quam...”</h3>
+                        <p class="slider__text">Susan Sims, Interaction Designer at XYZ</p>
+                    </div>
+                </div>
+                <div class="swiper-slide slider__container">
+                    <div class="slider__wrapper-img">
+                        <img class="slider__img" src="images/girls.jpg">
+                    </div>
+                    <div class="slider__wrapper-text">
+                        <h3 class="slider__title">“Integer Posuere Erat A Ante Venenatis Dapibus Posuere Velit Aliquet. Donec Sed Odio Dui. Aenean Eu Leo Quam...”</h3>
+                        <p class="slider__text">Susan Sims, Interaction Designer at XYZ</p>
+                    </div>
+                </div>
+                <div class="swiper-slide slider__container">
+                    <div class="slider__wrapper-img">
+                        <img class="slider__img" src="images/girls.jpg">
+                    </div>
+                    <div class="slider__wrapper-text">
+                        <h3 class="slider__title">“Integer Posuere Erat A Ante Venenatis Dapibus Posuere Velit Aliquet. Donec Sed Odio Dui. Aenean Eu Leo Quam...”</h3>
+                        <p class="slider__text">Susan Sims, Interaction Designer at XYZ</p>
+                    </div>
+                </div>
+                <div class="swiper-slide slider__container">
+                    <div class="slider__wrapper-img">
+                        <img class="slider__img" src="images/girls.jpg">
+                    </div>
+                    <div class="slider__wrapper-text">
+                        <h3 class="slider__title">“Integer Posuere Erat A Ante Venenatis Dapibus Posuere Velit Aliquet. Donec Sed Odio Dui. Aenean Eu Leo Quam...”</h3>
+                        <p class="slider__text">Susan Sims, Interaction Designer at XYZ</p>
+                    </div>
+                </div>
+                <div class="swiper-slide slider__container">
+                    <div class="slider__wrapper-img">
+                        <img class="slider__img" src="images/girls.jpg">
+                    </div>
+                    <div class="slider__wrapper-text">
+                        <h3 class="slider__title">“Integer Posuere Erat A Ante Venenatis Dapibus Posuere Velit Aliquet. Donec Sed Odio Dui. Aenean Eu Leo Quam...”</h3>
+                        <p class="slider__text">Susan Sims, Interaction Designer at XYZ</p>
+                    </div>
+                </div>
             </div>
-            <div class="slider__wrapper-text">
-                <h3 class="slider__title">“Integer Posuere Erat A Ante Venenatis Dapibus Posuere Velit Aliquet. Donec Sed Odio Dui. Aenean Eu Leo Quam...”</h3>
-                <p class="slider__text">Susan Sims, Interaction Designer at XYZ</p>
-            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
         </div>
     </div>
     <section class="download">
@@ -287,12 +336,12 @@
     </section> 
     <footer class="footer">
         <div class="container footer__container">
-            <div class="footer__item footer__item-one">
-                <h3 class="footer__title footer__title-one">Location</h3>
+            <div class="footer__item">
+                <h3 class="footer__title">Location</h3>
                 <p class="footer__text">3481 Melrose Place Beverly Hills, CA 90210</p>
             </div>
-            <div class="footer__item footer__item-two">
-                <h3 class="footer__title footer__title-two">Share with Love</h3>
+            <div class="footer__item">
+                <h3 class="footer__title">Share with Love</h3>
                 <div class="footer__social-icons">
                     <a href="#" class="footer__link"><svg width="10" height="18" viewBox="0 0 10 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M6.39703 17.997V9.80099H9.16203L9.57303 6.59199H6.39703V4.54799C6.39703 3.62199 6.65503 2.98799 7.98403 2.98799H9.66803V0.126986C8.84867 0.0391771 8.02508 -0.00322112 7.20103 -1.39392e-05C4.75703 -1.39392e-05 3.07903 1.49199 3.07903 4.23099V6.58599H0.332031V9.79499H3.08503V17.997H6.39703Z" fill="#C6CBCD"/>
@@ -308,8 +357,8 @@
                     </a>
                 </div>
             </div>
-            <div class="footer__item footer__item-three">
-                <h3 class="footer__title footer__title-three">About ActiveBox</h3>
+            <div class="footer__item">
+                <h3 class="footer__title">About ActiveBox</h3>
                 <p class="footer__text">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec ullamcorper nulla non metus auctor fringilla.</p>
             </div>
         </div>
@@ -319,5 +368,19 @@
             </div>
         </div>   
     </footer> 
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+                const swiper = new Swiper('.swiper-review', {
+        // Optional parameters
+        loop: true,
+        autoheight:true,
+
+        // If we need pagination
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true
+        },
+        });
+    </script>
 </body>
 </html>
