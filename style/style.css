@@ -34,7 +34,6 @@
 }
 @media (max-width: 767px) {
   .header__container {
-    padding-right: 35px;
     border-bottom: none;
   }
 }
@@ -200,7 +199,6 @@
   font-weight: 400;
   margin: 0 auto 82px;
   max-width: 1030px;
-  max-height: 56px;
 }
 @media (max-width: 1024px) {
   .banner__text {
@@ -332,7 +330,6 @@
   font-weight: 900;
   margin-bottom: 49.43px;
   text-transform: uppercase;
-  max-height: 21px;
 }
 @media (max-width: 1024px) {
   .features__title {
@@ -353,7 +350,6 @@
   line-height: 21px;
   color: #6C7279;
   font-weight: 400;
-  max-height: 84px;
 }
 @media (max-width: 1024px) {
   .features__text {
@@ -519,7 +515,6 @@
   font-weight: 700;
   margin-bottom: 5.29px;
   padding: 1px 0;
-  max-height: 30px;
 }
 @media (max-width: 1024px) {
   .team__title {
@@ -541,7 +536,6 @@
   color: #FF4343;
   font-weight: 400;
   margin-bottom: 17.86px;
-  max-height: 21px;
   text-transform: uppercase;
 }
 @media (max-width: 1024px) {
@@ -564,7 +558,6 @@
   color: #6C7279;
   font-weight: 400;
   margin-bottom: 37.86px;
-  max-height: 168px;
 }
 @media (max-width: 1024px) {
   .team__text {
@@ -682,17 +675,11 @@
 }
 @media (max-width: 1024px) {
   .slider__wrapper-text {
-    display: block;
     padding: 30px 30px 30px 88px;
-    display: flex;
-    justify-content: center;
-    text-align: center;
   }
 }
 @media (max-width: 767px) {
   .slider__wrapper-text {
-    display: flex;
-    align-items: center;
     text-align: center;
     padding: 23px 24px 100.5px 20px;
     row-gap: 28px;
@@ -819,7 +806,6 @@
   font-weight: 700;
   text-transform: uppercase;
   margin-bottom: 47.71px;
-  max-height: 21px;
 }
 @media (max-width: 1024px) {
   .download__text {
@@ -922,7 +908,6 @@
   font-weight: 700;
   text-transform: uppercase;
   margin-bottom: 29.14px;
-  max-height: 21px;
 }
 @media (max-width: 1024px) {
   .footer__title {

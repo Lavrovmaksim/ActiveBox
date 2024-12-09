@@ -37,7 +37,6 @@
         position: relative;
         border-bottom: 1px solid #BABBC5;
         @media (max-width: 767px){
-            padding-right: 35px;
             border-bottom: none;
         }
     }
@@ -167,7 +166,6 @@
         @include font(24px, 28px, #fff, 400);
         margin: 0 auto 82px;
         max-width: 1030px;
-        max-height: 56px;
         @media (max-width: 1024px){
             max-width: 770px;
             line-height: 21px;
@@ -268,7 +266,6 @@
         @include font(24px, 28px, #2D3033, 900);
         margin-bottom: 49.43px;
         text-transform: uppercase;
-        max-height: 21px;
         @media (max-width: 1024px){
             @include font(18px, 21px, #2D3033, 900);
             margin-bottom: 23.725px;
@@ -279,7 +276,6 @@
     }
     &__text {
         @include font(18px, 21px, #6C7279, 400);
-        max-height: 84px;
         @media (max-width: 1024px){
             @include font(14px, 16px, #6C7279, 400);
         }
@@ -400,7 +396,6 @@
         @include font(24px, 28px, #2D3033, 700);
         margin-bottom: 5.29px;
         padding: 1px 0;
-        max-height: 30px;
         @media (max-width: 1024px){
             @include font(18px, 21px, #2D3033, 700);
             margin-bottom: 7.6px;
@@ -412,7 +407,6 @@
     &__post-text {
         @include font(18px, 21px, #FF4343, 400);
         margin-bottom: 17.86px;
-        max-height: 21px;
         text-transform: uppercase;
         @media (max-width: 1024px){
             @include font(14px, 16px, #FF4343, 400);
@@ -425,7 +419,6 @@
     &__text {
         @include font(18px, 21px, #6C7279, 400);
         margin-bottom: 37.86px;
-        max-height: 168px;
         @media (max-width: 1024px){
             @include font(14px, 16px, #6C7279, 400);
             margin-bottom: 39.2px;
@@ -518,15 +511,9 @@
         height: 100%;
         padding: 30px 30px 30px 129px;
         @media (max-width: 1024px){
-            display: block;
             padding: 30px 30px 30px 88px;
-            display: flex;
-            justify-content: center;
-            text-align: center;
         }
         @media (max-width: 767px){
-            display: flex;
-            align-items: center;
             text-align: center;
             padding: 23px 24px 100.5px 20px;
             row-gap: 28px;
@@ -612,7 +599,6 @@
         @include font(18px, 21px, #000, 700);
         text-transform: uppercase;
         margin-bottom: 47.71px;
-        max-height: 21px;
         @media (max-width: 1024px){
             @include font(14px, 16px, #000, 700);
             margin-bottom: 45.29px;
@@ -681,7 +667,6 @@
         @include font(18px, 21px, #fff, 700);
         text-transform: uppercase;
         margin-bottom: 29.14px;
-        max-height: 21px;
         @media (max-width: 1024px){
             @include font(14px, 16px, #fff, 700);
             margin-bottom: 17.31px;
