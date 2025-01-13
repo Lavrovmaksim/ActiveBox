@@ -39,6 +39,7 @@
 }
 .header__mobile-menu {
   display: none;
+  transition: all 0.3s linear;
 }
 @media (max-width: 767px) {
   .header__mobile-menu {
@@ -50,6 +51,75 @@
     background: none;
     padding-top: 5px;
   }
+}
+.header__mobile-menu path {
+  transition: all 0.3s linear;
+}
+.header__mobile-menu:hover path {
+  fill: #E71414;
+  transform-origin: center center;
+  transform: rotate(90deg);
+}
+.header__mobile-menu:active path {
+  fill: #4d4d4d;
+}
+
+.menu {
+  display: none;
+}
+@media (max-width: 767px) {
+  .menu {
+    position: absolute;
+    width: 100%;
+    top: 50px;
+    left: 0px;
+    margin: 0 auto;
+    text-align: center;
+    -webkit-backdrop-filter: blur(10px);
+            backdrop-filter: blur(10px);
+    transition: all 0.3s linear;
+  }
+}
+.menu-active {
+  display: none;
+  opacity: 1;
+}
+@media (max-width: 767px) {
+  .menu-active {
+    display: inline-block;
+  }
+}
+@media (max-width: 767px) {
+  .menu-inactive {
+    display: none;
+  }
+}
+.menu__content {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+}
+.menu__link {
+  font-size: 13px;
+  line-height: 15px;
+  color: #ffffff;
+  font-weight: 700;
+  text-decoration: none;
+  text-transform: uppercase;
+  display: block;
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-bottom: 3px solid transparent;
+  transition: all 0.3s linear;
+  cursor: pointer;
+}
+.menu__link:hover {
+  border: 3px solid #BABBC5;
+}
+.menu__link:active {
+  color: #E71414;
+  border: 3px solid #E71414;
 }
 
 .logo {
